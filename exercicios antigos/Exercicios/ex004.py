@@ -1,0 +1,7 @@
+v = input('enter anything you want: ')
+print(type(v))
+print(f'is "{v}" numeric? {v.isnumeric()}')
+print(f'is "{v}" alphabetic? {v.isalpha()}')
+print(f'is "{v}" alphanumeric? {v.isalnum()}')
+print(f'is "{v}" all in upper case letters? {v.isupper()}')
+print(f'is "{v}" all in lower case letters? {v.islower()}')
